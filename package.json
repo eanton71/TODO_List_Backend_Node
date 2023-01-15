@@ -1,0 +1,27 @@
+{
+  "name": "todos_back_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eanton71/BACKEND_NODE.git"
+  },
+  "author": "Enrique Anton Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eanton71/BACKEND_NODE/issues"
+  },
+  "homepage": "https://github.com/eanton71/BACKEND_NODE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "2.0.20"
+  }
+}
